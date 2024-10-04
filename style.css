@@ -86,3 +86,47 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  #yoga_project,
+  #weather_project,
+  #yogurt_project {
+    display: none;
+  }
+
+  #yoga_information,
+  #weather_information,
+  #yogurt_information {
+    width: 100%;
+  }
+
+  #yoga_button,
+  #weather_button,
+  #yogurt_button {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  h2,
+  p {
+    text-align: center;
+  }
+}
