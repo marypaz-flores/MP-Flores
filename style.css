@@ -61,6 +61,17 @@ p {
   border: 1px solid var(--primary-color);
 }
 
+.third-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  justify-content: center;
+}
+
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -129,4 +140,13 @@ p {
   p {
     text-align: center;
   }
+}
+
+.selfie {
+  border-radius: 10px;
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
