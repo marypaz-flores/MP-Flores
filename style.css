@@ -150,3 +150,12 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
+.content-container {
+  padding: 160px 20px;
+}
+
+.content h3 {
+  color: black;
+  opacity: 1;
+}
